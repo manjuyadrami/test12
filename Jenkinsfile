@@ -9,4 +9,6 @@ node(){
         print "upload"
     }
     
-}
+       stage("deploy to dev"){
+        print "deploy"
+    }}
