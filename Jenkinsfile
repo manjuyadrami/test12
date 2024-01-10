@@ -4,7 +4,8 @@ node(){
         print "clone"
     }
       stage("maven build"){
-        print "maven"
+          sh 'mvn clean package'        
+          print "maven"
     }
       stage("upload artifact"){
         print "upload"
